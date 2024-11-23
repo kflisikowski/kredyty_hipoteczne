@@ -11,4 +11,6 @@ output:
 ```{r setup, include=FALSE}
 ## Global options
 knitr::opts_chunk$set(cache = TRUE)
+dane <- read.csv(file="Hipoteczny.csv")
 ```
+
